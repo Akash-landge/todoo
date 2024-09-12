@@ -2,7 +2,7 @@ services:          #default synxtax
   first:        #naming convention for container
     build: /opt/todoo/ #location of the docker file
     ports:     #port mapping my container to host port 
-      - '89:80'  
+      - '80:80'  
     container_name: todo  #providing name to container
     
     network_mode:   #providing network mode
